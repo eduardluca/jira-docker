@@ -1,4 +1,7 @@
-FROM adoptopenjdk/openjdk11-openj9:x86_64-alpine-jre-11.0.15_10_openj9-0.32.0
+
+#adoptopenjdk/openjdk11-openj9:x86_64-alpine-jre-11.0.15_10_openj9-0.32.0
+
+FROM eclipse-temurin
 # this image already contains glibc
 
 ENV JIRA_USER=jira                              \
